@@ -1,0 +1,35 @@
+1-Start
+2-Describe your variables price,passenger,time,class
+3-Read price,passenger,time,class
+4-if(class==1){
+    if(time==1)
+        price=price*150
+        print "price"
+    
+    elseif(time==2)
+        price=price*140
+        print "price
+    
+    else
+    price=price*120
+    print "price" 
+}
+5-else{
+       if(time==1)
+        price=price*100
+        print "price"
+    
+    elseif(time==2)
+        price=price*90
+        print "price
+    
+    else
+    price=price*70
+    print "price" 
+}
+6-if(passenger>2)
+{
+    price=price*0.85
+    print "price"
+}
+7-Finish
