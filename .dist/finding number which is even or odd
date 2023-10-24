@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1-Start
 2-Numerical a
 3-if(a%2==0){
@@ -7,3 +8,17 @@ else {
     print " a is an odd number"
 }
 4-Finish
+=======
+int main(){
+int a;
+printf("enter an a number: ");
+scanf("%d",&a);
+if(a%2==0){
+  printf("a is an even number");
+}
+else{
+  printf("a is an odd number")
+}
+  return 0;
+}
+>>>>>>> 18207e1352a4f355e3fc5fadd176e465f8cc34da
