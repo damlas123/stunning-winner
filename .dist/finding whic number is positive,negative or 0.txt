@@ -1,0 +1,10 @@
+1-Start
+2-Numerical a
+3-Read a
+4- if(a>0)
+  print "a is a positive number"
+5-elseif (a<0)
+print " a is a negative number"
+6-else 
+  print "a is zero"
+7-Finish
