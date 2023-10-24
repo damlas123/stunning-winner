@@ -1,0 +1,11 @@
+int main(){
+ int a,tensdigit,onesdigit;
+  a=89;
+  tensdigit=a/10;
+  onesdigit=a%10;
+  printf("the tens digit of a:%d",b);
+  printf("the ones digit of a:%d",c);
+  
+
+   return 0;
+}
