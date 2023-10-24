@@ -1,6 +1,6 @@
 1-Start
 2-Describe your variables price,passenger,time,class
-3-Read price,passenger,time,class
+3-Read passenger,time,class
 4-if(class==1){
     if(time==1)
         price=price*150
@@ -14,7 +14,7 @@
     price=price*120
     print "price" 
 }
-5-else{
+else if {
        if(time==1)
         price=price*100
         print "price"
@@ -27,9 +27,14 @@
     price=price*70
     print "price" 
 }
-6-if(passenger>2)
+else if {
+if(passenger>2)
 {
     price=price*0.85
     print "price"
+}
+}
+else{
+  print "you entered wrong chooses"
 }
 7-Finish
