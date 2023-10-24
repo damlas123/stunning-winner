@@ -1,0 +1,9 @@
+1-Start
+2-Numerical a
+3-if(a%2==0){
+    print " a is an even number"
+}
+else {
+    print " a is an odd number"
+}
+4-Finish
