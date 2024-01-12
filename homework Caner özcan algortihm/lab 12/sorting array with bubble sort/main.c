@@ -11,7 +11,7 @@ int main(int argc, char *argv[]) {
 	for(i=0;i<n;i++){
 		fgets(dizi[i],sizeof(dizi[i]),stdin);
 	}
-	printf("your sstrings:\n");
+	printf("your strings:\n");
 	for(i=0;i<n;i++){
 		printf("%s\t",dizi[i]);
 	}
@@ -26,7 +26,7 @@ int main(int argc, char *argv[]) {
 	}
 	printf("after the bubble sort:\n");
 	for(i=0;i<n;i++){
-		printf("\t%s\t",dizi[i]);
+		printf("\n\t%s\t",dizi[i]);
 	}
 	return 0;
 }
