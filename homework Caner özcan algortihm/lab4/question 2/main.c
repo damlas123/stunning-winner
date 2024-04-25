@@ -9,8 +9,6 @@ int even(int *ar,int a,int d){
 		  }
 		   return even(ar,a,d+1);
 	}
-    
-   	
 		 
 	 }
  
@@ -29,6 +27,7 @@ int main(int argc, char *argv[]) {
 	}
 	p=array;
 	int b=0;
-	even(p,n,b);
+	int num=even(p,n,b);
+	printf("the number of odd is:%d",num);
 	return 0;
 }
